@@ -13,17 +13,17 @@ AutoCaptionBot = pyrogram.Client(
    name="AutoCaptionBot", api_id=app_id, api_hash=api_hash, bot_token=bot_token)
 
 start_message = """
-<b>👋ʜᴇʟʟᴏ ʙʀᴏᴛʜᴇʀ/sɪsᴛᴇʀ (ᴇxᴄᴇᴘᴛ ᴏɴᴇ ᴍʏ 👸 ǫᴜᴇᴇɴ 😉) __{}__</b>
-<b>ɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀᴄᴇ ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ ᴡɪᴛʜ ᴀᴅᴠᴀɴᴄᴇ ғᴏɴᴛ ғᴇᴀᴛᴜʀᴇ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ</b>
-<b>ɴᴏᴡ ᴀᴛ ᴛʜᴀᴛ ᴛɪᴍᴇ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ɪɴ ᴄʜᴀɴɴᴇʟ ʙᴜᴛ ɪᴛ ɢᴏᴛ ᴜᴘᴅᴀᴛᴇᴅ ᴀʟsᴏ</b>
-<b>ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ʏᴏᴜʀ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ ᴅᴏɴᴛ ᴡᴏʀʀʏ ɪ ʜᴀᴠᴇ sᴏʟᴜᴛɪᴏɴ</b>
-<b>I ɢɪᴠᴇ ᴄᴀᴘᴛɪᴏɴ ɪɴ ᴍᴏɴᴏ('ʏs ʙᴏᴛᴢ') sᴛʏʟᴇ ɴᴏᴡ ʙᴜᴛ \nɪ ᴄᴀɴ ᴀʟsᴏ ɢɪᴠᴇ ʏᴏᴜ ɪɴ ɪᴛᴀʟɪᴄ,ʙᴏʟᴅ, ᴀɴᴅ ʙᴏʟᴅ ɪᴛᴀʟɪᴄ ᴏɴ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴍʏ ɢᴏᴅ😀\n ᴘʀᴇss ᴏɴ ʜᴇʟᴘ ғᴏʀ ᴍᴏʀᴇ<\b>
+<b>👋ʜᴇʟʟᴏ ʙʀᴏᴛʜᴇʀ/sɪsᴛᴇʀ (ᴇxᴄᴇᴘᴛ ᴏɴᴇ ᴍʏ 👸 ǫᴜᴇᴇɴ 😉) \n ᴍʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ{}</b>
+<b>\n\nɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀᴄᴇ ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ ᴡɪᴛʜ ᴀᴅᴠᴀɴᴄᴇ ғᴏɴᴛ ғᴇᴀᴛᴜʀᴇ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ</b>
+<b>\nɴᴏᴡ ᴀᴛ ᴛʜᴀᴛ ᴛɪᴍᴇ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ɪɴ ᴄʜᴀɴɴᴇʟ ʙᴜᴛ ɪᴛ ɢᴏᴛ ᴜᴘᴅᴀᴛᴇᴅ ᴀʟsᴏ</b>
+<b>\nᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ʏᴏᴜʀ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ ᴅᴏɴᴛ ᴡᴏʀʀʏ ɪ ʜᴀᴠᴇ sᴏʟᴜᴛɪᴏɴ</b>
+<b>\nI ɢɪᴠᴇ ᴄᴀᴘᴛɪᴏɴ ɪɴ ᴍᴏɴᴏ(`ʏs ʙᴏᴛᴢ`) sᴛʏʟᴇ ɴᴏᴡ ʙᴜᴛ \nɪ ᴄᴀɴ ᴀʟsᴏ ɢɪᴠᴇ ʏᴏᴜ ɪɴ ɪᴛᴀʟɪᴄ, ʙᴏʟᴅ, ᴀɴᴅ ʙᴏʟᴅ ɪᴛᴀʟɪᴄ ᴏɴ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴍʏ ɢᴏᴅ😀\n ᴘʀᴇss ᴏɴ ʜᴇʟᴘ ғᴏʀ ᴍᴏʀᴇ<\b>
 <b>ᴀʟʟ ᴄᴏᴘʏʀɪɢʜᴛ ᴄʟᴀɪᴍᴇᴅ ʙʏ\n ʏs ʙᴏᴛᴢ™</b>"""
 
 about_message = """
 ╔════❰ ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼📃ᴍʏ ɴᴀᴍᴇ : [Aᴜᴛᴏ Cᴀᴘᴛɪᴏɴ](https://t.me/)
+║┣⪼📃ᴍʏ ɴᴀᴍᴇ : {}
 ║┣⪼😎Cʀᴇᴀᴛᴏʀ : [𝖄𝕾_𝕭𝖔𝖙𝖟](https://t.me/Raadhe_Krishnn)
 ║┣⪼🧒ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
 ║┣⪼📡Hᴏsᴛᴇᴅ ᴏɴ : Aɴʏ Wʜᴇʀᴇ
@@ -61,6 +61,7 @@ sᴛᴇᴘ 𝟸:- sᴛᴇᴘ ᴛᴡᴏ ᴀᴅᴅ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜ
 📁 Fɪʟᴇ Nᴀᴍᴇ » `Lucifer_2017_S02_E10_18_Part_1_720p_HEVC_HDRip_Dual_Audio_Hindi.mkv`
 
 ⚙ Sɪᴢᴇ » __984.95 ᴍʙ__ """
+
 @AutoCaptionBot.on_message(pyrogram.filters.private & pyrogram.filters.command(["start"]))
 def start_command(bot, update):
   update.reply(start_message.format(update.from_user.mention), reply_markup=start_buttons(bot, update), parse_mode=pyrogram.enums.ParseMode.HTML, disable_web_page_preview=True)
