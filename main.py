@@ -126,6 +126,9 @@ def start_buttons(bot, update):
    pyrogram.types.InlineKeyboardButton("🌀 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🌀", url=f"http://t.me/{bot.username}?startchannel=true")
    ],[
    pyrogram.types.InlineKeyboardButton("💠ᴀʙᴏᴜᴛ💠", callback_data="about")
+   ],[      
+
+pyrogram.types.InlineKeyboardButton("💠ᴀʙᴏᴜᴛ💠", callback_data="help")
    ],[
    pyrogram.types.InlineKeyboardButton("📢ᴜᴘᴅᴀᴛᴇ📢", url="t.me/YS_Botz_Update")
    ],[pyrogram.types.InlineKeyboardButton("💞sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ💕", url="https://t.me/YS_BOT_DISSCUSION")
