@@ -158,20 +158,6 @@ def source_buttons(bot, update):
   ]
   return pyrogram.types.InlineKeyboardMarkup(buttons) 
   
-  def about_buttons(bot, update):
-   buttons = [
-    [
-      pyrogram.types.InlineKeyboardButton("❇️ʜᴏᴍᴇ ❇", callback_data="start")
-    ],
-    [
-      pyrogram.types.InlineKeyboardButton("🔅 ᴀʙᴏᴜᴛ 🔅", callback_data="about"), 
-      pyrogram.types.InlineKeyboardButton("♨️ ᴄʟᴏsᴇ ♨", callback_data="close")
-    ],[
-      pyrogram.types.InlineKeyboardButton("Oᴡɴᴇʀ♂️", url="t.me/Raadhe_Krishnn")
-    ]
-  ]
-  return pyrogram.types.InlineKeyboardMarkup(buttons) 
-  
 print("Telegram AutoCaption Bot mode by YS bot developerr")
 print("Bot Created By YS Botz")
 
