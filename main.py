@@ -136,7 +136,6 @@ pyrogram.types.InlineKeyboardButton("💠ᴀʙᴏᴜᴛ💠", callback_data="hel
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
 def about_buttons(bot, update):
-   bot = bot.get_me()
    buttons = [
     [
       pyrogram.types.InlineKeyboardButton("❇️ʜᴏᴍᴇ ❇", callback_data="start")
@@ -149,7 +148,6 @@ def about_buttons(bot, update):
   return pyrogram.types.InlineKeyboardMarkup(buttons) 
 
 def source_buttons(bot, update):
-   bot = bot.get_me()
    buttons = [
     [
       pyrogram.types.InlineKeyboardButton("❇️ʜᴏᴍᴇ ❇", callback_data="start")
